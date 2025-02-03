@@ -1,0 +1,135 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar {
+  height: 10vh;
+  background-color: rgb(154, 214, 154);
+  width: 100vw;
+  text-align: center;
+  
+
+}
+.container {
+    height:80vh;
+    width: 100vw;
+    background-color: rgb(154, 214, 154);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-y: auto;
+ 
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+
+    display: flex;
+    flex-direction: column;
+   
+    
+
+}
+.image-box {
+    height: 150px;
+    width: 300px;
+    display: flex;
+   
+  
+}
+.text-box {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    line-height: 25px;
+   
+  
+}
+/*
+.text-box {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 25px;
+}*/
+.footer1 {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(154, 214, 154);
+  
+    display: flex;
+    justify-content: center;
+}
+
+@media  (min-width: 300px ) and (max-width: 600px) {
+    body{
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(110, 98, 218);
+        display: flex;
+        flex-direction: column;
+    
+         
+       
+    
+    }
+
+    .navbar {
+        height: 10vh;
+        background-color:  rgb(110, 98, 218);
+        width: 100vw;
+        text-align: center;
+        
+      
+      }
+      .container {
+          height:80vh;
+          width: 100vw;
+          background-color:  rgb(110, 98, 218);
+          gap: 20px;
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          align-items: center;
+       
+       
+      }
+      .box {
+          height: 300px;
+          width: 300px;
+          background-color: beige;
+          
+          display: flex;
+          flex-direction: column;
+          
+      
+      }
+      .image-box {
+          height: 150px;
+          width: 300px;
+          display: flex;
+         
+        
+      }
+      
+      .footer1 {
+          height: 10vh;
+          width: 100vw;
+          background-color: rgb(110, 98, 218);
+          display: flex;
+          justify-content: center;
+      }
+  
+}
